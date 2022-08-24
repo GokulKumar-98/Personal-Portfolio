@@ -26,6 +26,7 @@ const NavBar = () => {
                 Home
               </a>
               <a
+                href="#Skills"
                 className={
                   'px-6 text-lg font-meduim font-poppins transition ease-in-out cursor-pointer hover:text-white ' +
                   (clicked === 'Skills' ? 'text-white' : 'text-[#b8b8b8]')
@@ -34,6 +35,7 @@ const NavBar = () => {
                 Skills
               </a>
               <a
+                href="#Projects"
                 className={
                   'px-6 text-lg font-meduim font-poppins cursor-pointer hover:text-white ' +
                   (clicked === 'Projects' ? 'text-white' : 'text-[#b8b8b8]')

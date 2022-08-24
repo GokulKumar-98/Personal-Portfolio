@@ -20,9 +20,11 @@ module.exports = {
       lgx: { max: '1023px' },
       mdx: { max: '850px' },
       msx: { max: '768px' },
+      smx: { max: '640px' },
     },
     backgroundImage: {
       'banner-bg': "url('./assets/img/banner-bg.png')",
+      'footer-bg': "url('./assets/img/footer-bg.png')",
     },
   },
   plugins: [],
