@@ -12,6 +12,7 @@ const contact = () => {
 
   return (
     <section
+      id="Contact"
       className="relative contact-main py-14 "
       style={{
         background: 'linear-gradient(90.21deg,#aa367c -5.91%,#4a2fbd 111.58%)',
@@ -31,34 +32,44 @@ const contact = () => {
             <input
               type={'text'}
               placeholder={'First Name'}
+              required
               minLength={3}
-              className={`bg-white/10 ` + inpsty}
+              className={
+                `bg-white/10 ` + inpsty + ' focus:placeholder:text-black/50'
+              }
             ></input>
             <input
               type={'text'}
               placeholder={'Last Name'}
               minLength={3}
               required
-              className={'bg-white/10 ' + inpsty}
+              className={
+                'bg-white/10 ' + inpsty + ' focus:placeholder:text-black/50'
+              }
             ></input>
             <input
               type={'email'}
               placeholder={'Email Address'}
               pattern={'[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2, 4}$'}
               required
-              className={'bg-white/10 ' + inpsty}
+              className={
+                'bg-white/10 ' + inpsty + ' focus:placeholder:text-black/50'
+              }
             ></input>
             <input
-              type={'tel'}
-              required
-              placeholder={'Mobile Number'}
-              className={'bg-white/10 ' + inpsty}
+              type={'number'}
+              placeholder={'Phone Number'}
+              pattern="[0-9]{10}"
+              className={
+                'bg-white/10 ' + inpsty + ' focus:placeholder:text-black/50'
+              }
             ></input>
             <textarea
               placeholder={'Message'}
               className={
                 'col-span-4 focus:outline-none bg-white/10 msx:col-span-2' +
-                inpsty
+                inpsty +
+                ' focus:placeholder:text-black/50'
               }
             ></textarea>
             <button

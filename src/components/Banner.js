@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import astro from '../assets/img/header-img.svg';
 import ar1 from '../assets/img/arrow2.svg';
 
 const Banner = () => {
   return (
-    <div className="banner bg-banner-bg bg-top bg-cover pt-64 pb-24 z-50 msx:pt-32">
+    <div
+      id="Home"
+      className={`banner bg-banner-bg bg-top bg-cover pt-64 pb-24 z-50  msx:pt-32`}
+    >
       <div className="mx-32 xlx:mx-20 lgx:mx-12 mdx:7 msx:mx-7">
         <div className="grid grid-cols-2 gap-2 msx:grid-cols-1">
           <div className=" leftside col-span-1">
@@ -51,9 +54,11 @@ const Typing = () => {
       className=" text-white z-40"
       sequence={[
         'Web Developer', // Types 'One'
-        5000, // Waits 1s
-        'Web Designer', // Deletes 'One' and types 'Two'
-        5000, // Waits 2s
+        3000, // Waits 1s
+        '',
+        2000,
+        'Web Designer',
+        3000, // Waits 2s
       ]}
       wrapper="div"
       speed={5}

@@ -7,7 +7,7 @@ import footerbg from '../assets/img/footer-bg.png';
 const FooterSec = () => {
   return (
     <footer className=" text-white bg-footer-bg bg-cover">
-      <div className="footcontainer flex items-start justify-between flex-wrap mx-28 px-3 pt-14 pb-12 border-b border-slate-500 mdx:mx-14 msx:mx-7">
+      <div className="footcontainer flex items-start justify-between flex-wrap mx-28 px-3 pt-14 pb-12 border-b border-white/50 mdx:mx-14 msx:mx-7">
         <div className="leftfoot max-w-3xl w-[40%] order-1 msx:w-full msx:order-2 msx:mt-10">
           <div className="leftfoot flex justify-start items-center">
             <img src={gklogo} style={{ maxHeight: '50px' }}></img>
@@ -54,7 +54,7 @@ const FooterSec = () => {
       </div>
 
       <div className=" flex py-5 font-poppins text-[11px] font-light justify-center text-[#b8b8b8]">
-        This Template is Made with ❤ by Gokul Kumar, using react and tailwind
+        Made with ❤ by Gokul Kumar, using react.js and tailwind css
       </div>
     </footer>
   );
