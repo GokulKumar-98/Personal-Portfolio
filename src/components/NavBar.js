@@ -75,37 +75,37 @@ const NavBar = () => {
             </div>
             <span className="button-holder py-2 flex  items-center">
               <div className="social-icons ml-4 lgx:hidden">
-                <div className="group circle inline-flex items-center justify-center mr-1.5 h-10 w-10 bg-gray-800/50  border border-white rounded-full transition ease-in-out hover:bg-white">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/gokul-kumar-882972141/"
-                  >
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/gokul-kumar-882972141/"
+                >
+                  <div className="group circle inline-flex items-center justify-center mr-1.5 h-10 w-10 bg-gray-800/50  border border-white rounded-full transition ease-in-out hover:bg-white">
                     <img src={nav1} className="group-hover:invert" alt=""></img>
-                  </a>
-                </div>
-                <div className="group circle inline-flex items-center justify-center mr-1.5 h-10 w-10 bg-gray-800/50  border border-white rounded-full transition ease-in-out hover:bg-white">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://github.com/GokulKumar-98/Personal-Portfolio"
-                  >
+                  </div>
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://github.com/GokulKumar-98/"
+                >
+                  <div className="group circle inline-flex items-center justify-center mr-1.5 h-10 w-10 bg-gray-800/50  border border-white rounded-full transition ease-in-out hover:bg-white">
                     <img
                       alt=""
                       src={nav2}
                       className="h-[18px] group-hover:invert"
                     ></img>
-                  </a>
-                </div>
-                <div className="group circle inline-flex items-center justify-center mr-1.5 h-10 w-10 bg-gray-800/50  border border-white rounded-full transition ease-in-out hover:bg-white">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.instagram.com/gokul_kriz27/"
-                  >
+                  </div>
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.instagram.com/gokul_kriz27/"
+                >
+                  <div className="group circle inline-flex items-center justify-center mr-1.5 h-10 w-10 bg-gray-800/50  border border-white rounded-full transition ease-in-out hover:bg-white">
                     <img alt="" src={nav3} className="group-hover:invert"></img>
-                  </a>
-                </div>
+                  </div>{' '}
+                </a>
               </div>
               <a href="#Contact">
                 <button
