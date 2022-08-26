@@ -1,7 +1,7 @@
 import React from 'react';
-import homep from '../assets/img/home.png';
 import skillp from '../assets/img/skills.png';
 import projp from '../assets/img/project.png';
+import chat from '../assets/img/chat.png';
 
 const HamMenu = (props) => {
   return (
@@ -10,22 +10,22 @@ const HamMenu = (props) => {
         props.value === '' ? 'hidden' : 'flex'
       } ${props.value ? 'animate__backInRight' : 'animate__backOutRight'}`}
     >
-      <a href="#Home">
+      <a href="#Contact">
         <div className="flex flex-col items-center px-2">
-          <img src={homep} className="h-[24px] w-[24px]"></img>
-          <span className="text-sm font-poppins text-white mt-1">Home</span>
+          <img alt="" src={chat} className="h-[24px] w-[24px]"></img>
+          <span className="text-xs font-poppins text-white mt-1">Connect</span>
         </div>
       </a>
       <a href="#Skills">
         <div className="flex flex-col justify-center items-center px-2">
-          <img src={skillp} className="h-[24px] w-[24px] "></img>
-          <span className="text-sm font-poppins text-white mt-1">Skills</span>
+          <img alt="" src={skillp} className="h-[24px] w-[24px] "></img>
+          <span className="text-xs font-poppins text-white mt-1">Skills</span>
         </div>
       </a>
       <a href="#Projects">
         <div className="flex flex-col items-center px-2">
-          <img src={projp} className="h-[24px] w-[24px]"></img>
-          <span className="text-sm font-poppins text-white mt-1">Works</span>
+          <img alt="" src={projp} className="h-[24px] w-[24px]"></img>
+          <span className="text-xs font-poppins text-white mt-1">Works</span>
         </div>
       </a>
     </div>

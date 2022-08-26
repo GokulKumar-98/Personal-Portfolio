@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import gklogo from '../assets/img/gklogo.png';
 import nav1 from '../assets/img/nav-icon1.svg';
-import nav2 from '../assets/img/nav-icon2.svg';
 import nav3 from '../assets/img/nav-icon3.svg';
 import ham from '../assets/img/hamburger.png';
-
+import nav2 from '../assets/img/githu.png';
 import 'animate.css';
-import Skills from './Skills';
 import HamMenu from './HamMenu';
 
 const NavBar = () => {
@@ -42,7 +40,9 @@ const NavBar = () => {
         } }`}
       >
         <div className="navcontainer w-full flex items-center justify-between flex-wrap transition-all mx-28 px-3  mdx:mx-14 msx:mx-7">
-          <img src={gklogo} style={{ maxHeight: '60px' }}></img>
+          <a href="#Home">
+            <img src={gklogo} style={{ maxHeight: '60px' }} alt=""></img>
+          </a>
           <div className="nav-collapse flex items-center flex-grow-1 msx:hidden">
             <div className="menu-holder ml-auto" onClick={menuclick}>
               <a
@@ -76,18 +76,34 @@ const NavBar = () => {
             <span className="button-holder py-2 flex  items-center">
               <div className="social-icons ml-4 lgx:hidden">
                 <div className="group circle inline-flex items-center justify-center mr-1.5 h-10 w-10 bg-gray-800/50  border border-white rounded-full transition ease-in-out hover:bg-white">
-                  <a href="#">
-                    <img src={nav1} className="group-hover:invert"></img>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/gokul-kumar-882972141/"
+                  >
+                    <img src={nav1} className="group-hover:invert" alt=""></img>
                   </a>
                 </div>
                 <div className="group circle inline-flex items-center justify-center mr-1.5 h-10 w-10 bg-gray-800/50  border border-white rounded-full transition ease-in-out hover:bg-white">
-                  <a href="#">
-                    <img src={nav2} className="group-hover:invert"></img>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://github.com/GokulKumar-98/Personal-Portfolio"
+                  >
+                    <img
+                      alt=""
+                      src={nav2}
+                      className="h-[18px] group-hover:invert"
+                    ></img>
                   </a>
                 </div>
                 <div className="group circle inline-flex items-center justify-center mr-1.5 h-10 w-10 bg-gray-800/50  border border-white rounded-full transition ease-in-out hover:bg-white">
-                  <a href="#">
-                    <img src={nav3} className="group-hover:invert"></img>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.instagram.com/gokul_kriz27/"
+                  >
+                    <img alt="" src={nav3} className="group-hover:invert"></img>
                   </a>
                 </div>
               </div>
@@ -106,6 +122,7 @@ const NavBar = () => {
             <div className="flex items-center">
               <HamMenu value={hamt}></HamMenu>
               <img
+                alt=""
                 onClick={hamclick}
                 className={`inline-block z-50 h-full cursor-pointer ${
                   hamt ? 'animate-hanim1' : 'animate-hanim2'

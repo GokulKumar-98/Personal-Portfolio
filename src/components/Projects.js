@@ -1,26 +1,33 @@
 import React from 'react';
 import 'animate.css';
 import ProjectCard from './ProjectCard';
+import proj1 from '../assets/img/proj1.png';
+import proj2 from '../assets/img/proj2.png';
+import soon from '../assets/img/comingsoon.png';
 
-const images = [
-  'https://images.unsplash.com/photo-1549989476-69a92fa57c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1550167164-1b67c2be3973?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1550338861-b7cfeaf8ffd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1550223640-23097fc71cb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1550353175-a3611868086b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1550330039-a54e15ed9d33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1549737328-8b9f3252b927?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1549833284-6a7df91c1f65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1549985908-597a09ef0a7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
-  'https://images.unsplash.com/photo-1550064824-8f993041ffd3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60',
+const details = [
+  {
+    title: 'Personal Portfolio',
+    imge: <img className="h-full " src={proj2} alt="" />,
+    gitlink: 'https://github.com/GokulKumar-98/Personal-Portfolio',
+    extlink: '',
+  },
+  {
+    title: 'Adobe App Menu',
+    imge: <img className="h-full " src={proj1} alt="" />,
+    gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
+    extlink: 'https://adobe-menu.netlify.app/',
+  },
+
+  {
+    title: 'In Progress...',
+    imge: <img className="h-full " src={soon} alt="" />,
+    gitlink: '',
+    extlink: '',
+  },
 ];
 
 const Projects = () => {
-  const ennt = (e) => {
-    console.log(e.target);
-  };
   return (
     <section id="Projects" className="text-white bg-black relative">
       <div className="flex flex-col items-center justify-center px-12 py-14 xlx:mx-20 lgx:mx-10 mdx:7 msx:mx-7">
@@ -30,13 +37,10 @@ const Projects = () => {
           industry.
           <br /> Lorem Ipsum has been the industry's standard dummy text.
         </p>
-        <div
-          className="grid grid-cols-3 gap-4 w-full  lgx:grid-cols-2 smx:grid-cols-1"
-          onMouseEnter={ennt}
-        >
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
+        <div className="grid grid-cols-3 gap-4 w-full  lgx:grid-cols-2 smx:grid-cols-1">
+          <ProjectCard value={details[0]}></ProjectCard>
+          <ProjectCard value={details[1]}></ProjectCard>
+          <ProjectCard value={details[2]}></ProjectCard>
         </div>
       </div>
     </section>

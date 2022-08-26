@@ -1,15 +1,34 @@
 import React from 'react';
 import contactimg from '../assets/img/contact-img.svg';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const contact = () => {
-  //   const inputtyle = `placeholder:italic placeholder:text-slate-400 block w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
-  //     placeholder="Search for anything...`;
-  //   const inpstyle = `placeholder:italic placeholder:text-slate-400 block w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm"
-  //     placeholder="Search for anything...`;
-
+const Contact = () => {
   const inpsty =
     '`bg-white/10 col-span-2 text-white placeholder:text-white px-4 py-5 rounded-[7px] mb-[8px] mr-[8px] border border-white/50 ease-in-out duration-300 focus:outline-none  focus:bg-white focus:text-black focus:placeholder:text-black/50`';
-
+  const sendEmail = (e) => {
+    e.preventDefault();
+    toast
+      .promise(
+        emailjs.sendForm(
+          'service_6xuenif',
+          'template_p5pqxje',
+          e.target,
+          'g7uY1wgJvVte-p7pz'
+        ),
+        {
+          pending: 'Sending Mail....',
+          success: 'Mail Sent 👌',
+          error: 'Mail Not Sent 🤯',
+        }
+      )
+      .then((result) => {
+        console.log(result.text);
+        e.target.reset();
+      });
+  };
   return (
     <section
       id="Contact"
@@ -20,19 +39,37 @@ const contact = () => {
     >
       <div className="grid grid-cols-2 gap-4  msx:grid-cols-1 mx-32 xlx:mx-20 lgx:mx-10 mdx:7 msx:mx-7">
         <img
+          alt=""
           className="flex items-center justify-center h-96 animate-updn"
           src={contactimg}
         />
         <div className="form-holder text-white">
-          <h1 className="text-5xl font-centra font-bold mb-5">Get In Touch</h1>
+          <h1 className="text-5xl font-centra font-bold mb-5">
+            Get In Touch{' '}
+            <span className="text-sm font-thin text-white/50 whitespace-nowrap">
+              ( Powered by EmailJS )
+            </span>
+          </h1>
+          <ToastContainer
+            position="bottom-right"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
           <form
             className="grid grid-cols-4 text-black font-medium tracking-wide font-poppins"
-            onSubmit={(e) => e.preventDefault()}
+            onSubmit={sendEmail}
           >
             <input
               type={'text'}
               placeholder={'First Name'}
               required
+              name="from_name"
               minLength={3}
               className={
                 `bg-white/10 ` + inpsty + ' focus:placeholder:text-black/50'
@@ -50,6 +87,7 @@ const contact = () => {
             <input
               type={'email'}
               placeholder={'Email Address'}
+              name="email_address"
               pattern={'[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2, 4}$'}
               required
               className={
@@ -59,6 +97,7 @@ const contact = () => {
             <input
               type={'number'}
               placeholder={'Phone Number'}
+              name="phone_num"
               pattern="[0-9]{10}"
               className={
                 'bg-white/10 ' + inpsty + ' focus:placeholder:text-black/50'
@@ -66,6 +105,7 @@ const contact = () => {
             ></input>
             <textarea
               placeholder={'Message'}
+              name="message"
               className={
                 'col-span-4 focus:outline-none bg-white/10 msx:col-span-2' +
                 inpsty +
@@ -86,4 +126,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

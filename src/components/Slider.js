@@ -57,7 +57,7 @@ const Simple = () => {
         {images.map((im) => {
           return (
             <div key={im}>
-              <img src={im} className={'mx-auto px-3 h-32'}></img>
+              <img src={im} className={'mx-auto px-3 h-32'} alt=""></img>
             </div>
           );
         })}

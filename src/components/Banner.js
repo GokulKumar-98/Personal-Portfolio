@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import astro from '../assets/img/header-img.svg';
 import ar1 from '../assets/img/arrow2.svg';
@@ -31,15 +31,17 @@ const Banner = () => {
               type and scrambled it to make a type specimen book.
             </p>
             <span>
-              <button className="text-xl text-white font-semibold font-centra flex items-center">
-                Let's Connect
-                <img src={ar1} className="h-4 pl-2"></img>
-              </button>
+              <a href="#Contact">
+                <button className="text-xl text-white font-semibold font-centra flex items-center">
+                  Let's Connect
+                  <img alt="" src={ar1} className="h-4 pl-2"></img>
+                </button>
+              </a>
             </span>
           </div>
           <div className="rightside flex items-center justify-center msx:">
             <div className="imghld">
-              <img src={astro} className="h-96 animate-updn"></img>
+              <img alt="" src={astro} className="h-96 animate-updn"></img>
             </div>
           </div>
         </div>

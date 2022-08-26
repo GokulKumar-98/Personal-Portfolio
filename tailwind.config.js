@@ -32,6 +32,7 @@ module.exports = {
       msx: { max: '768px' },
       mxi: { min: '768px' },
       smx: { max: '640px' },
+      xsx: { max: '340px' },
     },
     backgroundImage: {
       'banner-bg': "url('./assets/img/banner-bg.png')",
