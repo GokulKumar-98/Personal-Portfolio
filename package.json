@@ -41,7 +41,11 @@
       "last 1 safari version"
     ]
   },
+  "overrides": {
+    "@svgr/webpack": "$@svgr/webpack"
+  },
   "devDependencies": {
+    "@svgr/webpack": "^6.3.1",
     "tailwindcss": "^3.1.8"
   }
 }
