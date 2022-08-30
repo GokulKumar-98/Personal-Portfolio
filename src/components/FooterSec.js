@@ -19,7 +19,7 @@ const FooterSec = () => {
           <p className="text-left font-poppins mt-5">
             A Frontend focused Web Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall
-            product
+            product.
           </p>
         </div>
         <div className="rightfoot flex flex-col order-2 items-start msx:order-1">

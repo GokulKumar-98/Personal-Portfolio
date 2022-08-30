@@ -25,10 +25,9 @@ const Banner = () => {
               Hi! I'm Gokul Kumar<Typing></Typing>
             </h1>
             <p className="text-[#b8b8b8] flex-wrap font-poppins py-6">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              A Frontend focused Web Developer building the Frontend of Websites
+              and Web Applications that leads to the success of the overall
+              product. Check out some of my work in the Projects section.
             </p>
             <span>
               <a href="#Contact">
