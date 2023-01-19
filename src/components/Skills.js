@@ -12,9 +12,9 @@ const Skills = () => {
     'GIT',
     'GitHub',
     'Resposive Design',
-    'Tailwind Css',
+    'Tailwind Css','Redux',
     'Material UI',
-    'PhotoShop',
+    'PhotoShop','MySQL'
   ];
   return (
     <>
