@@ -24,20 +24,20 @@ const details = [
   {
     title: 'IP Clock',
     imge: <img className="h-full " src={ipclock} alt="" />,
-    gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
-    extlink: 'https://adobe-menu.netlify.app/',
+    gitlink: 'https://github.com/GokulKumar-98/IP-Clock',
+    extlink: 'https://ip-clock-quotes.netlify.app/',
   },
   {
     title: 'Rock Paper Scissor',
     imge: <img className="h-full " src={rps} alt="" />,
-    gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
-    extlink: 'https://adobe-menu.netlify.app/',
+    gitlink: 'https://github.com/GokulKumar-98/rock-paper-scissors',
+    extlink: 'https://rockspaperscissorsgame.netlify.app/',
   },
   {
     title: 'Redux Toolkit Cart',
     imge: <img className="h-full " src={reduxcart} alt="" />,
-    gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
-    extlink: 'https://adobe-menu.netlify.app/',
+    gitlink: 'https://github.com/GokulKumar-98/ReduxCart',
+    extlink: 'https://redux-cart-toolkit.netlify.app/',
   },
 
   {
