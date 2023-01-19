@@ -4,6 +4,9 @@ import ProjectCard from './ProjectCard';
 import proj1 from '../assets/img/proj1.png';
 import proj2 from '../assets/img/proj2.png';
 import soon from '../assets/img/comingsoon.png';
+import rps from '../assets/img/rps.jpg';
+import reduxcart from '../assets/img/reduxcart.jpg';
+import ipclock from '../assets/img/ipclock.jpg';
 
 const details = [
   {
@@ -15,6 +18,24 @@ const details = [
   {
     title: 'Adobe App Menu',
     imge: <img className="h-full " src={proj1} alt="" />,
+    gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
+    extlink: 'https://adobe-menu.netlify.app/',
+  },
+  {
+    title: 'IP Clock',
+    imge: <img className="h-full " src={ipclock} alt="" />,
+    gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
+    extlink: 'https://adobe-menu.netlify.app/',
+  },
+  {
+    title: 'Rock paper Scissor',
+    imge: <img className="h-full " src={rps} alt="" />,
+    gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
+    extlink: 'https://adobe-menu.netlify.app/',
+  },
+  {
+    title: 'Redux Toolkit Cart',
+    imge: <img className="h-full " src={reduxcart} alt="" />,
     gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
     extlink: 'https://adobe-menu.netlify.app/',
   },
@@ -39,6 +60,9 @@ const Projects = () => {
           <ProjectCard value={details[0]}></ProjectCard>
           <ProjectCard value={details[1]}></ProjectCard>
           <ProjectCard value={details[2]}></ProjectCard>
+          <ProjectCard value={details[3]}></ProjectCard>
+          <ProjectCard value={details[4]}></ProjectCard>
+          <ProjectCard value={details[5]}></ProjectCard>
         </div>
       </div>
     </section>
