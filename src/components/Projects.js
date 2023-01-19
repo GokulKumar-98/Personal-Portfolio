@@ -28,7 +28,7 @@ const details = [
     extlink: 'https://adobe-menu.netlify.app/',
   },
   {
-    title: 'Rock paper Scissor',
+    title: 'Rock Paper Scissor',
     imge: <img className="h-full " src={rps} alt="" />,
     gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
     extlink: 'https://adobe-menu.netlify.app/',
