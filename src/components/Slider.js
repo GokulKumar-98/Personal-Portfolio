@@ -10,8 +10,9 @@ import ps from '../assets/img/ps.png';
 import tailwind from '../assets/img/tail.svg';
 import git from '../assets/img/Git.png';
 import github from '../assets/img/githu.png';
+import wdylg from '../assets/img/wdy.png';
 
-const images = [css3, html5, js, reactpn, ps, tailwind, git, github];
+const images = [css3, wdylg, html5, js, reactpn, ps, tailwind, git, github];
 
 const Simple = () => {
   const settings = {

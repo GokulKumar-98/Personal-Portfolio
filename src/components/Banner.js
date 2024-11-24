@@ -25,9 +25,20 @@ const Banner = () => {
               Hi! I'm Gokul Kumar<Typing></Typing>
             </h1>
             <p className="text-[#b8b8b8] flex-wrap font-poppins py-6">
-              A Frontend focused Web Developer building the Frontend of Websites
-              and Web Applications that leads to the success of the overall
-              product. Check out some of my work in the Projects section.
+              I am a Workday Integration Consultant with over 4 years of IT
+              experience, including 2 years specializing in Workday
+              integrations. My expertise lies in automating and optimizing HR
+              and financial processes using tools like Workday Studio, EIB,
+              Connectors, and BIRT. I have hands-on experience with XML, XSLT,
+              REST, SOAP, and RaaS Web Services to build scalable and efficient
+              solutions.
+            </p>
+            <p className="text-[#b8b8b8] flex-wrap font-poppins pb-6">
+              Alongside my integration expertise, I am passionate about web
+              development and enjoy creating user-friendly, functional websites.
+              This combination of integration expertise and web development
+              interest enables me to deliver well-rounded, efficient, and
+              user-focused solutions.
             </p>
             <span>
               <a href="#Contact">
@@ -54,15 +65,19 @@ const Typing = () => {
     <TypeAnimation
       className=" text-white z-40"
       sequence={[
+        'Workday Consultant', // Types 'One'
+        2000, // Waits 1s
+        '',
+        2000,
         'Web Developer', // Types 'One'
-        3000, // Waits 1s
+        2000, // Waits 1s
         '',
         2000,
         'Web Designer',
-        3000, // Waits 2s
+        2000, // Waits 2s
       ]}
       wrapper="div"
-      speed={5}
+      speed={7}
       cursor={true}
       repeat={Infinity}
     />

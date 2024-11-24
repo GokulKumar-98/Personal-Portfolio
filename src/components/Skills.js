@@ -12,9 +12,24 @@ const Skills = () => {
     'GIT',
     'GitHub',
     'Resposive Design',
-    'Tailwind Css','Redux',
+    'Tailwind Css',
+    'Redux',
     'Material UI',
-    'PhotoShop','MySQL'
+    'PhotoShop',
+    'MySQL',
+  ];
+  const wdySkills = [
+    'Workday Studio',
+    'EIB',
+    'Core Connectors',
+    'BIRT',
+    'PECI',
+    'PICOF',
+    'WECI',
+    'Payroll Connectors',
+    'XSLT',
+    'XML',
+    'Web Services (SOAP, REST, RaaS)',
   ];
   return (
     <>
@@ -28,8 +43,23 @@ const Skills = () => {
                     Skills
                   </h1>
                   <p className="font-poppins text-center">
-                    Here you will find more information about my current skills
-                    mostly in terms of programming and technology.
+                    <b style={{ color: '#ff8a54' }}>
+                      Workday Integration Skills:{' '}
+                    </b>
+                    Here you will find more details about my current skills
+                    focused on Workday Integration, including tools and
+                    technologies I use. These are the core areas I excel in
+                    professionally.
+                  </p>
+                  <div className="group flex justify-center flex-wrap my-5">
+                    <Skillsbox value={wdySkills}></Skillsbox>
+                  </div>
+                  <p className="font-poppins text-center">
+                    <b style={{ color: '#ff8a54' }}>Web Development Skills: </b>
+                    This section highlights my web development skills,
+                    showcasing my passion for building responsive, user-friendly
+                    websites and exploring creative solutions through modern web
+                    technologies.
                   </p>
                   <div className="group flex justify-center flex-wrap my-5">
                     <Skillsbox value={newskills}></Skillsbox>
