@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Gokul Kumar - Workday Integration Consultant & Web Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my GitHub profile! I am an experienced **Workday Integration Consultant** with over **4 years of IT experience**, including **2 years** specializing in Workday integrations. Alongside my expertise in Workday integration, I have a strong interest in **Web Development**, where I enjoy building user-friendly and functional websites.
 
-## Available Scripts
+## 🚀 About Me
 
-In the project directory, you can run:
+I specialize in automating and optimizing **HR and financial processes** through **Workday Integration**. My work involves creating, building, and maintaining integrations using tools such as **Workday Studio**, **EIB**, **Connectors**, and **BIRT**.  
+I also have hands-on experience with **XML**, **XSLT**, **REST**, **SOAP**, and **RaaS Web Services** to build scalable, efficient, and secure solutions.
 
-### `npm start`
+Alongside my integration expertise, I am passionate about **Web Development** and love exploring new technologies. I am proficient in HTML, CSS, JavaScript, and frameworks like **React**, with a focus on creating responsive and user-friendly websites.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 💻 Technical Skills
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Workday Integration
+- **Workday Studio**  
+- **Enterprise Interface Builder (EIB)**  
+- **Core Connectors**  
+- **BIRT**  
+- **REST & SOAP APIs**  
+- **RaaS Web Services**  
+- **XML**  
+- **XSLT**
 
-### `npm test`
+### Web Development
+- **HTML**  
+- **CSS**  
+- **JavaScript**  
+- **React.js**  
+- **Responsive Design**  
+- **UI/UX Concepts**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏆 Key Achievements
 
-### `npm run build`
+- Successfully designed and supported **Workday integrations** for multiple internal and external clients.
+- Awarded **ACE** and **Skill Star** for outstanding contributions in integration development and process automation.
+- Built and deployed multiple **user-friendly web applications**, ensuring scalability and performance optimization.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tools & Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Workday Studio**, **EIB**, **Connectors**
+- **MySQL**
+- **ServiceNow**
+- **REST APIs**, **SOAP APIs**
+- **Git**, **GitHub**
+- **Visual Studio Code**, **Sublime Text**
+- **Tailwind CSS**, **Bootstrap**, **React.js**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🌍 Get In Touch
 
-### `npm run eject`
+I am always open to new opportunities and collaboration. If you're looking for an experienced **Workday Integration Consultant** or a **Web Developer**, feel free to reach out!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 📧 Email: [gokulkumarpdpi@gmail.com](mailto:gokulkumarpdpi@gmail.com)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/gokul-kumar-882972141/)
+- 🌐 [Portfolio](https://gokulkumar.netlify.app/)
