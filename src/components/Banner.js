@@ -22,7 +22,7 @@ const Banner = () => {
               Welcome to my Portfolio
             </span>
             <h1 className="text-6xl text-white font-centra font-black">
-              Hi! I'm Gokul Kumar<Typing></Typing>
+              Gokul Kumar<Typing></Typing>
             </h1>
             <p className="text-[#b8b8b8] flex-wrap font-poppins py-6">
               I am a Workday Integration Consultant with over 4 years of IT
