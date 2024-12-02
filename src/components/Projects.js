@@ -4,6 +4,9 @@ import ProjectCard from './ProjectCard';
 import proj1 from '../assets/img/proj1.png';
 import proj2 from '../assets/img/proj2.png';
 import soon from '../assets/img/comingsoon.png';
+import rps from '../assets/img/rps.jpg';
+import reduxcart from '../assets/img/reduxcart.jpg';
+import ipclock from '../assets/img/ipclock.jpg';
 
 const details = [
   {
@@ -17,6 +20,24 @@ const details = [
     imge: <img className="h-full " src={proj1} alt="" />,
     gitlink: 'https://github.com/GokulKumar-98/Adobe-App',
     extlink: 'https://adobe-menu.netlify.app/',
+  },
+  {
+    title: 'IP Clock',
+    imge: <img className="h-full " src={ipclock} alt="" />,
+    gitlink: 'https://github.com/GokulKumar-98/IP-Clock',
+    extlink: 'https://ip-clock-quotes.netlify.app/',
+  },
+  {
+    title: 'Rock Paper Scissor',
+    imge: <img className="h-full " src={rps} alt="" />,
+    gitlink: 'https://github.com/GokulKumar-98/rock-paper-scissors',
+    extlink: 'https://rockspaperscissorsgame.netlify.app/',
+  },
+  {
+    title: 'Redux Toolkit Cart',
+    imge: <img className="h-full " src={reduxcart} alt="" />,
+    gitlink: 'https://github.com/GokulKumar-98/ReduxCart',
+    extlink: 'https://redux-cart-toolkit.netlify.app/',
   },
 
   {
@@ -33,14 +54,15 @@ const Projects = () => {
       <div className="flex flex-col items-center justify-center px-12 py-14 xlx:mx-20 lgx:mx-10 mdx:7 msx:mx-7">
         <h1 className="text-5xl font-centra font-bold mb-5 ">Projects</h1>
         <p className="font-poppins text-center mb-6">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-          <br /> Lorem Ipsum has been the industry's standard dummy text.
+          Here you will find some of the personal projects that I created.
         </p>
         <div className="grid grid-cols-3 gap-4 w-full  lgx:grid-cols-2 smx:grid-cols-1">
           <ProjectCard value={details[0]}></ProjectCard>
           <ProjectCard value={details[1]}></ProjectCard>
           <ProjectCard value={details[2]}></ProjectCard>
+          <ProjectCard value={details[3]}></ProjectCard>
+          <ProjectCard value={details[4]}></ProjectCard>
+          <ProjectCard value={details[5]}></ProjectCard>
         </div>
       </div>
     </section>

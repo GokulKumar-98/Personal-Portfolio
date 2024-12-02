@@ -27,25 +27,29 @@ const ProjectCard = ({ value }) => {
           className={`flex items-center justify-center absolute h-full w-full animate__animated animate__faster ${hov} `}
         ></div>
         <div
-          className={`info  absolute animate__animated animate__faster ${fade}`}
+          className={`flex flex-col items-center info gap-[20px] absolute animate__animated animate__faster ${fade}`}
         >
           <h1
-            className={` text-center text-3xl font-centra font-bold mb-5 pb-5`}
+            className={` text-center text-2xl font-centra font-bold msx:text-xl `}
           >
             {value.title}
           </h1>
-          <div className="flex justify-around mt-5 ">
+          <div className="flex gap-[30px]">
             <a
               target={`${value.gitlink === '' ? '' : '_blank'}`}
               href={`${value.gitlink === '' ? '#Home' : value.gitlink}`}
             >
-              <img className=" h-14 " src={nav1} alt=""></img>
+              {value.gitlink && (
+                <img className=" h-14 msx:h-10" src={nav1} alt=""></img>
+              )}
             </a>
             <a
               target={`${value.extlink === '' ? '' : '_blank'}`}
               href={`${value.extlink === '' ? '#Home' : value.extlink}`}
             >
-              <img className=" h-14" src={ext} alt=""></img>
+              {value.gitlink && (
+                <img className=" h-14 msx:h-10" src={ext} alt=""></img>
+              )}
             </a>
           </div>
         </div>

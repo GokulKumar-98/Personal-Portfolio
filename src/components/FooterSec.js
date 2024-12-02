@@ -17,9 +17,14 @@ const FooterSec = () => {
           </div>
 
           <p className="text-left font-poppins mt-5">
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
+            Looking for an experienced Workday Integration Consultant or a web
+            developer to collaborate with? Let’s connect! Reach me at{' '}
+            <a
+              href="mailto:gokulkumarpdpi@gmail.com"
+              className="text-blue-500 underline"
+            >
+              gokulkumarpdpi@gmail.com
+            </a>
           </p>
         </div>
         <div className="rightfoot flex flex-col order-2 items-start msx:order-1">
@@ -41,7 +46,7 @@ const FooterSec = () => {
             <a
               rel="noreferrer"
               target="_blank"
-              href="https://github.com/GokulKumar-98/Personal-Portfolio"
+              href="https://github.com/GokulKumar-98/"
             >
               <img className="h-6 mr-4" alt="" src={github} />
             </a>
